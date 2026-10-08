@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     IMAGE_NAME = "sayantan123/maven-jenkins-demo"
-    DOCKERHUB_CREDENTIALS = credentials('DockerHub')
+    DOCKERHUB_CREDENTIALS = credentials('Dockerhub')
   }
 
   stages {
